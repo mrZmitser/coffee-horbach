@@ -54,6 +54,7 @@ public class DrinkDao extends CrudDao<DrinkEntity> {
         CriteriaQuery<DrinkEntity> cq = cb.createQuery(DrinkEntity.class);
         Root<DrinkEntity> root = cq.from(DrinkEntity.class);
         cq.select(root);
+        cq.orderBy(cb.asc(root.get("id")));
         EntityTransaction t = em.getTransaction();
         List<DrinkEntity> addDrinksEntities;
         try {

@@ -53,6 +53,9 @@ public class CoffeeServlet extends HttpServlet {
                 case "service":
                     cmd = new LoadServiceCommand(role, ingredientDao, addIngredientsDao);
                     break;
+                case "chat":
+                    cmd = new LoadChatCommand(user, role);
+                    break;
             }
         }
         if (cmd == null) {
@@ -89,6 +92,9 @@ public class CoffeeServlet extends HttpServlet {
                 break;
             case "serviceAddIngr":
                 cmd = new ServiceCommand(role, true, drinkDao, ingredientDao, addIngredientsDao);
+                break;
+            case "editPrice":
+                cmd = new EditPriceCommand(role, drinkDao, addIngredientsDao);
                 break;
         }
 

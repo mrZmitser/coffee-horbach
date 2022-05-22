@@ -1,26 +1,30 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:requestEncoding value="UTF-8"/>
+<fmt:setLocale value="${userLocale}"/>
+<fmt:setBundle basename="locale"/>
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="./css/menu.css">
 <link rel="stylesheet" href="./css/coffee-style.css">
 <head>
     <meta charset="UTF-8">
-    <title>Coffee - Sign Up</title>
+    <title><fmt:message key="register.title"/></title>
 </head>
 <body>
 <div class="header">
-    <h1>Sign Up to the Coffee!</h1>
+    <h1><fmt:message key="register.header"/></h1>
 </div>
 
 <form method="post" id="register-form" action="coffee-servlet">
     <input name="action" value="register" style="visibility: hidden"/><br>
-    <label for="login">Login:</label><br>
+    <label for="login"><fmt:message key="register.login"/></label><br>
     <input name="login" id="login"/><br>
-    <label for="password">Password:</label><br>
+    <label for="password"><fmt:message key="register.password"/></label><br>
     <input name="password" type="password" id="password"/><br>
-    <label for="confirm">Confirm Password:</label><br>
+    <label for="confirm"><fmt:message key="register.confirm"/></label><br>
     <input name="confirm" type="password" id="confirm"/><br><br>
-    <button class="big-button" onclick="validateForm()">Sign Up!</button>
+    <button class="big-button" onclick="validateForm()"><fmt:message key="register.sign_up"/></button>
 </form>
 
 <script>
@@ -38,7 +42,7 @@
     }
 </script>
 <p>${errMsg}</p>
-<a href="coffee-servlet?action=login">Or you can log in</a>
+<a href="coffee-servlet?action=login"><fmt:message key="register.or_login"/></a>
 <p class="footer">© Zmitser Horbach, 2022</p>
 </body>
 </html>

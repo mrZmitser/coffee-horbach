@@ -26,7 +26,7 @@ public class AuthFilter implements Filter {
         HttpServletRequest request = ((HttpServletRequest) servletRequest);
         HttpServletResponse response = ((HttpServletResponse) servletResponse);
         String path = request.getServletPath();
-        if (path.equals("/register.jsp")) {
+        if (path.equals("/register.jsp") || path.equals("/chat.jsp")) {
             filterChain.doFilter(servletRequest, servletResponse);
             return;
         }
