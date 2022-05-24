@@ -2,7 +2,7 @@ var websocket;
 var lang;
 
 function init() {
-    websocket = new WebSocket('ws://localhost:8080/Lab5_Ultimate_war_exploded/chat');
+    websocket = new WebSocket('ws://coffee-horbach.herokuapp.com/Lab5_Ultimate_war_exploded/chat');
     websocket.onopen = function (event) {
         websocketOpen(event);
     };
