@@ -2,10 +2,10 @@ package com.example.lab5_ultimate.command.loader;
 
 import com.example.lab5_ultimate.command.CommandExecutionException;
 import com.example.lab5_ultimate.command.ServletCommand;
-import jakarta.servlet.RequestDispatcher;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 

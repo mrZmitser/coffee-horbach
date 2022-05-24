@@ -4,8 +4,8 @@ import com.example.lab5_ultimate.entity.AddIngredientEntity;
 import com.example.lab5_ultimate.entity.AddIngredientEntity_;
 import org.hibernate.JDBCException;
 
-import jakarta.persistence.*;
-import jakarta.persistence.criteria.*;
+import javax.persistence.*;
+import javax.persistence.criteria.*;
 import java.util.List;
 
 /**

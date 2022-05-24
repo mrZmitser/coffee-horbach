@@ -6,11 +6,11 @@ import com.example.lab5_ultimate.command.loader.LoadIndexCommand;
 import com.example.lab5_ultimate.db.DaoException;
 import com.example.lab5_ultimate.db.UserDao;
 import com.example.lab5_ultimate.entity.UserEntity;
-import jakarta.persistence.NoResultException;
-import jakarta.servlet.http.Cookie;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
+import javax.persistence.NoResultException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class RegisterCommand implements ServletCommand {
     private final UserDao userDao;

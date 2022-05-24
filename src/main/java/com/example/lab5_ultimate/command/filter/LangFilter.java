@@ -1,8 +1,8 @@
 package com.example.lab5_ultimate.command.filter;
 
-import jakarta.servlet.*;
-import jakarta.servlet.annotation.WebFilter;
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletRequest;
 
 import java.io.IOException;
 import java.util.Locale;

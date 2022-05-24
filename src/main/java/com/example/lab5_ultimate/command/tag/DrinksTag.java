@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.List;
 
 import com.example.lab5_ultimate.entity.DrinkEntity;
-import jakarta.servlet.jsp.JspTagException;
-import jakarta.servlet.jsp.tagext.TagSupport;
+import javax.servlet.jsp.JspTagException;
+import javax.servlet.jsp.tagext.TagSupport;
 
 public class DrinksTag extends TagSupport {
     private List<DrinkEntity> drinks;

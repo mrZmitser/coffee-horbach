@@ -6,10 +6,10 @@ import com.example.lab5_ultimate.command.action.RegisterCommand;
 import com.example.lab5_ultimate.command.loader.LoadIndexCommand;
 import com.example.lab5_ultimate.command.loader.LoadLoginCommand;
 import com.example.lab5_ultimate.db.UserDao;
-import jakarta.servlet.*;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
+import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import java.io.IOException;
 

@@ -9,8 +9,8 @@ import com.example.lab5_ultimate.db.DaoException;
 import com.example.lab5_ultimate.db.DrinkDao;
 import com.example.lab5_ultimate.db.IngredientsDao;
 import com.example.lab5_ultimate.entity.DrinkEntity;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

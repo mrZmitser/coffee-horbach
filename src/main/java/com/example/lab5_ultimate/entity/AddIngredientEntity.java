@@ -1,6 +1,6 @@
 package com.example.lab5_ultimate.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.util.Objects;
 import java.util.StringJoiner;
 

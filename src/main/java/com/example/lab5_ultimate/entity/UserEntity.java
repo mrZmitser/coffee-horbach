@@ -1,6 +1,6 @@
 package com.example.lab5_ultimate.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import org.hibernate.annotations.TypeDef;
 
 import java.util.Objects;

@@ -8,13 +8,11 @@ import com.example.lab5_ultimate.command.*;
 import com.example.lab5_ultimate.command.action.*;
 import com.example.lab5_ultimate.command.loader.*;
 import com.example.lab5_ultimate.db.*;
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletRequest;
-import jakarta.servlet.ServletResponse;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 
-@WebServlet(name = "coffeeServlet", value = "/coffee-servlet")
+@WebServlet(name = "coffeeServlet", urlPatterns = "/coffee-servlet")
 public class CoffeeServlet extends HttpServlet {
     AdditionalIngredientsDao addIngredientsDao;
     DrinkDao drinkDao;

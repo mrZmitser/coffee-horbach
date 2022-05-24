@@ -8,10 +8,10 @@ import com.example.lab5_ultimate.db.DrinkDao;
 import com.example.lab5_ultimate.db.IngredientsDao;
 import com.example.lab5_ultimate.entity.AddIngredientEntity;
 import com.example.lab5_ultimate.entity.IngredientEntity;
-import jakarta.servlet.RequestDispatcher;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 
 import java.io.IOException;
