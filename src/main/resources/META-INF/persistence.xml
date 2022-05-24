@@ -17,7 +17,7 @@
 <!--            <property name="hibernate.connection.password" value="password"/>-->
 <!--        </properties>        -->
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgres://uugllitcptjwpq:151b2475a103269c42b3a00bc998acdaf6e8fdc522aaef791b7ae5d2cef4cef3@ec2-54-76-43-89.eu-west-1.compute.amazonaws.com:5432/d2mapgfsbdf5he"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://ec2-54-76-43-89.eu-west-1.compute.amazonaws.com:5432/d2mapgfsbdf5he"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
             <property name="hibernate.connection.username" value="uugllitcptjwpq"/>
             <property name="hibernate.connection.password" value="151b2475a103269c42b3a00bc998acdaf6e8fdc522aaef791b7ae5d2cef4cef3"/>
